@@ -33,6 +33,9 @@ Using Power BI’s visualization tools, a dashboard is created to display key we
 ### Step 7: Daily Data Refresh
 The Lambda function’s daily trigger ensures the S3 JSON file is updated each morning. Power BI is then refreshed to pull in the latest data and update the dashboard automatically, ensuring up-to-date visualizations every day.
 
+## Process Flow
+
+![Power BI Dashboard](Flowchart.png)  
 
 
 ## Power BI Project
@@ -41,7 +44,7 @@ The Lambda function’s daily trigger ensures the S3 JSON file is updated each m
 
 ## Power BI Dashboard
 
-![Power BI Dashboard](Dashboard-Look.png)  <!-- Replace with the actual path to your dashboard image -->
+![Power BI Dashboard](Dashboard-Look.png)  
 
 ## Technical Details
 
