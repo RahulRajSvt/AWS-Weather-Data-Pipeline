@@ -33,6 +33,16 @@ Using Power BI’s visualization tools, a dashboard is created to display key we
 ### Step 7: Daily Data Refresh
 The Lambda function’s daily trigger ensures the S3 JSON file is updated each morning. Power BI is then refreshed to pull in the latest data and update the dashboard automatically, ensuring up-to-date visualizations every day.
 
+
+
+## Power BI Project
+
+- **[Power BI Project Link](#)**:https://app.powerbi.com/view?r=eyJrIjoiNzk2NDUyMjItNjBhZC00YTY2LWJjNDUtOGQ1MjhlNGQ4MGZhIiwidCI6ImJhMzMxNTkyLWJmMTQtNDAwNS1hZjlhLTlhMDFhOGFkYWQ5ZiIsImMiOjEwfQ%3D%3D 
+
+## Power BI Dashboard
+
+![Power BI Dashboard](Dashboard-Look.png)  <!-- Replace with the actual path to your dashboard image -->
+
 ## Technical Details
 
 - **Lambda Function**: Written in Python, the Lambda function makes a request to the OpenWeatherMap API, receives the data in JSON format, and saves it to an S3 bucket.
